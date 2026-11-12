@@ -1,0 +1,74 @@
+{
+  "inventory_date": "2026-11-11",
+  "scope": "Opt-in persistent-bond integration and committed TLV provenance. Records SDK inputs, transformed-source notices and local integration files; not a durability guarantee.",
+  "baseline_pico_sdk_commit": "9a4113fbbae65ee82d8cd6537963bc3d3b14bcca",
+  "baseline_btstack_commit": "501e6d2b86e6c92bfb9c390bcf55709938e25ac1",
+  "sdk_version": "2.1.1",
+  "board": "pico_w",
+  "installed_sdk_modified": false,
+  "sdk_inputs": [
+    {
+      "sdk_relative_path": "src/rp2_common/pico_cyw43_driver/btstack_cyw43.c",
+      "sha256": "99753d0e0fb9ace87d4ef64b98e6f82bd401c251d4f7b70c060b5fa8e15f7a90",
+      "role": "Target-private startup transformation by CMake string replacements; original header retained",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "sdk_relative_path": "src/rp2_common/pico_btstack/btstack_flash_bank.c",
+      "sha256": "017d5ddb1641d989b07a77117d396f94b428bbf87397afb6fb716975b87333ec",
+      "role": "Hash-pinned SDK flash HAL dependency; not transformed",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "sdk_relative_path": "lib/btstack/platform/embedded/btstack_tlv_flash_bank.c",
+      "sha256": "650975968466efd3f5cd2e17e81e42c3cebf2e0ad85bd6f622c881f549cc9692",
+      "role": "Hash-pinned compatibility input; its initializer is replaced, not copied into the project implementation",
+      "license": "BTstack standard terms or applicable Raspberry Pi supplemental grant"
+    }
+  ],
+  "transformed_source_notice": {
+    "source": "src/rp2_common/pico_cyw43_driver/btstack_cyw43.c",
+    "copyright": "Copyright (c) 2023 Raspberry Pi (Trading) Ltd.",
+    "SPDX": "BSD-3-Clause",
+    "notice": "SDK-SOURCE-NOTICES.txt",
+    "license": "Pico-SDK-BSD-3-Clause.txt",
+    "scope": "SDK-original startup source and its generated composite are not blanket BTstack-licensed. Other linked dependencies retain their own terms."
+  },
+  "local_inputs": [
+    {
+      "path": "../cmake/picow_persistent_bonds.cmake",
+      "sha256": "19316ff6168fb76e97b4bb9a128c35a1e7b34779a04831a5954cc892cad96893"
+    },
+    {
+      "path": "../bluetooth-runtime/PicoCommittedTlv.cpp",
+      "sha256": "558c644540a9f674aeb3d23d0e62f98c215479c63d09310db33f1a1cc53a3502"
+    },
+    {
+      "path": "../bluetooth-runtime/PicoCommittedTlv.h",
+      "sha256": "2dfb42d6ffbfb338eee654ffbb085e0e49e86ddfeb7a2497c3922d1136e94048"
+    },
+    {
+      "path": "../bluetooth-runtime/PicoPersistentBonds.cpp",
+      "sha256": "ff8c85cc58865b1553401673c6631d94d06f6fed3d576f6db36a27e0d5dac042"
+    },
+    {
+      "path": "../bluetooth-runtime/PicoPersistentBonds.h",
+      "sha256": "a2c9e3a2002d2aa1df99839ab949820ef71b5ac1c8306f353c60618f526783b4"
+    },
+    {
+      "path": "../bluetooth-runtime/PicoPersistentBondsPicoGuard.cpp",
+      "sha256": "ac978a523f730bfe183bac4bfd6a85e18d80c49dc298dfa3e391802ec70e0b95"
+    }
+  ],
+  "license_notices": [
+    "Pico-SDK-BSD-3-Clause.txt",
+    "SDK-SOURCE-NOTICES.txt",
+    "BTstack.txt",
+    "BTstack-Raspberry-Pi.txt"
+  ],
+  "scope_documents": [
+    "../docs/bluetooth_committed_tlv.md",
+    "../docs/bluetooth_bond_storage.md"
+  ],
+  "generated_output_hash_scope": "Saved generated-output hashes identify previously inspected outputs, not a fresh execution or verification of every current generator."
+}

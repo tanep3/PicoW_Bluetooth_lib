@@ -1,0 +1,3 @@
+#pragma once
+#cmakedefine01 SINK_DELAY_ENABLE_RADIO
+#define SINK_DELAY_PEER_BYTES @SINK_DELAY_PEER_BYTES@

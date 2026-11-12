@@ -1,0 +1,369 @@
+{
+  "audit_date": "2026-11-10",
+  "scope": "License texts, dependency versions, BTstack-derived generators and SDK-derived example sources used by this source distribution. External dependencies are not bundled. Not a per-symbol firmware SBOM or legal opinion.",
+  "license_files": [
+    {
+      "path": "licenses/Pico-SDK-BSD-3-Clause.txt",
+      "source": "https://github.com/raspberrypi/pico-sdk/blob/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca/LICENSE.TXT",
+      "sha256": "483f865953435b66c443dee7558debe3cc3cf8fcbb6a112fd9fc6a795d53f1f6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/BTstack.txt",
+      "source": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/LICENSE",
+      "sha256": "10aa5f952979a9fa2f58bf63c1390c9795b41f8eca405ab975ab926e4d14fc5a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/BTstack-Raspberry-Pi.txt",
+      "source": "https://github.com/raspberrypi/pico-sdk/blob/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca/src/rp2_common/pico_btstack/LICENSE.RP",
+      "sha256": "3b9280bbfedf57d9f7793d2f9af7beb5d5c45f16b587fa3c3568aaedd16fedf4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/CYW43.txt",
+      "source": "https://github.com/georgerobotics/cyw43-driver/blob/c1075d4bc440422cf2b2fd12c64a1f53f77660ee/LICENSE",
+      "sha256": "0ce42360898b7c3f168317b559d4783b55c892751580c2a12c76b548aa5858fb",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/CYW43-Raspberry-Pi.txt",
+      "source": "https://github.com/georgerobotics/cyw43-driver/blob/c1075d4bc440422cf2b2fd12c64a1f53f77660ee/LICENSE.RP",
+      "sha256": "67aca4f10d9edf489871f64cd8f0dcd6c5df3e4ce75bd39e1914fc54f99e40b3",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/TinyUSB-MIT.txt",
+      "source": "https://github.com/hathach/tinyusb/blob/86ad6e56c1700e85f1c5678607a762cfe3aa2f47/LICENSE",
+      "sha256": "b171720e8a442e7a3957d83c62cd3299dbb29da3db534cc626f9dded0de2ca44",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/lwIP-BSD-3-Clause.txt",
+      "source": "https://github.com/lwip-tcpip/lwip/blob/0a0452b2c39bdd91e252aef045c115f88f6ca773/COPYING",
+      "sha256": "ef4aac92e05e87cd1cdc140870ed52206ba03d4a7fe46c1e11d7ffa6c87d252b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/Pico-printf-MIT.txt",
+      "source": "https://github.com/raspberrypi/pico-sdk/blob/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca/src/rp2_common/pico_printf/LICENSE",
+      "sha256": "3fd3a80a06465d0b4affa1d1a16e18a8d2ef42a52eb52060109ae12f1f878f72",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/micro-ecc-BSD-2-Clause.txt",
+      "source": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/3rd-party/micro-ecc/LICENSE.txt",
+      "sha256": "ffd8b033d2df7568c25a98866bd92b1656f7da82d7f813c0b2eb85ec36611193",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/Yxml-MIT.txt",
+      "source": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/3rd-party/yxml/COPYING",
+      "sha256": "b9b5ca63904b3cf589d5719be2968436550914dc3fdf5d81b37ddbdd67986d06",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/SEGGER-RTT.txt",
+      "source": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/3rd-party/segger-rtt/License.txt",
+      "sha256": "9a160ebc4406ed363f5fb397cc8cd201613ab29e67a2439474f7bafd77e3ce07",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/LovyanGFX.txt",
+      "source": "https://github.com/lovyan03/LovyanGFX/blob/67251b69794e4688d428ebcf43d0166a8787cd12/license.txt",
+      "sha256": "ec7c22d763503f016c1e743e6089042e780fbb1c118ebcc0b1eb72232e8903b3",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/Picotool-BSD-3-Clause.txt",
+      "source": "https://github.com/raspberrypi/picotool/blob/de8ae5ac334e1126993f72a5c67949712fd1e1a4/LICENSE.TXT",
+      "sha256": "483f865953435b66c443dee7558debe3cc3cf8fcbb6a112fd9fc6a795d53f1f6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/Apache-2.0.txt",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/GPL-2.0.txt",
+      "source": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/GPL-3.0.txt",
+      "source": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/newlib-notices.txt",
+      "source": "Installed libnewlib-dev 4.4.0.20231231-2: /usr/share/doc/libnewlib-dev/copyright; https://sourceware.org/newlib/COPYING.NEWLIB",
+      "sha256": "0383bc85177c121b1ee5e00ff07f51d0cab2dd5bbe51875fdff01a91c234c3ae",
+      "copy": "verbatim"
+    },
+    {
+      "path": "licenses/GCC-Runtime-Library-Exception-3.1.txt",
+      "source": "/usr/share/doc/gcc-13-base/copyright; https://www.gnu.org/licenses/gcc-exception-3.1.html",
+      "sha256": "28e85c5aa4af9b4f1dfe6b4817aa3eefb3eaaee7fd735045016f29ccf50276a1",
+      "copy": "verbatim section"
+    },
+    {
+      "path": "licenses/PipeWire-MIT.txt",
+      "source": "https://github.com/PipeWire/pipewire/blob/1.0.5/COPYING",
+      "upstream_blob_sha": "aa100ce9c02238111b56e394ad5a13311e23a521",
+      "sha256": "8909c319a7e27dbb33a15b9035f89ab3b7b2f6a12f8bcddc755206a8db1ada44",
+      "copy": "verbatim text returned by GitHub connector"
+    },
+    {
+      "path": "licenses/Linux-syscall-note.txt",
+      "source": "https://github.com/torvalds/linux/blob/v6.8/LICENSES/exceptions/Linux-syscall-note",
+      "upstream_blob_sha": "9abdad71fafdf29de61157bfa9a31e244a32f5b8",
+      "sha256": "8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f",
+      "copy": "verbatim text returned by GitHub connector"
+    },
+    {
+      "path": "licenses/AGPL-3.0.txt",
+      "source": "https://github.com/spdx/license-list-data/blob/main/text/AGPL-3.0-only.txt",
+      "upstream_blob_sha": "0c97efd25b5974b974ed9a8a18207bc4f55bb338",
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee",
+      "copy": "verbatim text returned by GitHub connector"
+    },
+    {
+      "path": "licenses/SDK-SOURCE-NOTICES.txt",
+      "source": "Audited SDK source paths listed in this file and manifest.json",
+      "sha256": "065d1eca13418683c7ed9d2947f6d96fb0887416a24bc53ff8dc923fd564a0c7",
+      "copy": "verbatim leading source comments, grouped with project-added headings"
+    },
+    {
+      "path": "licenses/Ubuntu-linux-package-notice.txt",
+      "source": "Ubuntu linux-raspi 6.8.0-1065.69 package copyright; source: https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-raspi/+git/noble/tree/?h=Ubuntu-raspi-6.8.0-1065.69",
+      "sha256": "4ab34baa23c94237ffef144c80348b982d2d8e814c46b3a6a3538a706ef26114",
+      "copy": "verbatim installed package copyright file"
+    },
+    {
+      "path": "licenses/libpcap-package-notice.txt",
+      "source": "Installed libpcap0.8t64 package copyright; upstream https://www.tcpdump.org/license.html",
+      "sha256": "6b0e609cf98f7abd39d3b81100fdb2bed24dcaee6656b500fcecb392db70dc60",
+      "copy": "verbatim installed package copyright file"
+    },
+    {
+      "path": "licenses/BTstack-overlay-source-notices.txt",
+      "source": "BTstack pinned upstream source headers; source paths/URLs reproduced in the notice file",
+      "sha256": "af6756d7ca161e2b77403e53de7e3a1907485ede4b9f273be8770b5f08f11546",
+      "copy": "Verbatim license comment blocks with project-added labels"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "pico-sdk",
+      "revision": "9a4113fbbae65ee82d8cd6537963bc3d3b14bcca",
+      "source_url": "https://github.com/raspberrypi/pico-sdk/tree/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca"
+    },
+    {
+      "name": "btstack",
+      "revision": "501e6d2b86e6c92bfb9c390bcf55709938e25ac1",
+      "source_url": "https://github.com/bluekitchen/btstack/tree/501e6d2b86e6c92bfb9c390bcf55709938e25ac1"
+    },
+    {
+      "name": "cyw43-driver",
+      "revision": "c1075d4bc440422cf2b2fd12c64a1f53f77660ee",
+      "source_url": "https://github.com/georgerobotics/cyw43-driver/tree/c1075d4bc440422cf2b2fd12c64a1f53f77660ee"
+    },
+    {
+      "name": "tinyusb",
+      "revision": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+      "source_url": "https://github.com/hathach/tinyusb/tree/86ad6e56c1700e85f1c5678607a762cfe3aa2f47"
+    },
+    {
+      "name": "lwip",
+      "revision": "0a0452b2c39bdd91e252aef045c115f88f6ca773",
+      "source_url": "https://github.com/lwip-tcpip/lwip/tree/0a0452b2c39bdd91e252aef045c115f88f6ca773"
+    },
+    {
+      "name": "LovyanGFX",
+      "revision": "67251b69794e4688d428ebcf43d0166a8787cd12",
+      "source_url": "https://github.com/lovyan03/LovyanGFX/tree/67251b69794e4688d428ebcf43d0166a8787cd12"
+    },
+    {
+      "name": "picotool",
+      "revision": "de8ae5ac334e1126993f72a5c67949712fd1e1a4",
+      "source_url": "https://github.com/raspberrypi/picotool/tree/de8ae5ac334e1126993f72a5c67949712fd1e1a4"
+    }
+  ],
+  "notes": [
+    "Project-original portions are MIT; upstream excerpts and dependencies retain their own terms.",
+    "Source distributions do not include the complete SDK/toolchain, compiled firmware or research-source snapshots.",
+    "Firmware distributors must inspect actual linked inputs and retain all applicable notices.",
+    "Host tools invoked by scripts are separately installed, not bundled.",
+    "Saved generated-output hashes refer to previously inspected outputs, not a fresh execution of every generator."
+  ],
+  "project_license": {
+    "path": "LICENSE",
+    "SPDX": "MIT",
+    "copyright": "Copyright (c) 2026 Tane Channel Technology",
+    "scope": "Project-original portions only; exclusions in THIRD_PARTY_NOTICES.md",
+    "sha256": "71c43c78d5236937f9fdd6f380c35d43a8525bbeda1ed63e7d8f6b9d71bf6e8f"
+  },
+  "overlay_inventories": [
+    {
+      "path": "licenses/avrcp-overlay-manifest.json",
+      "sha256": "1d697a283afd1c4f67847464a5e77736829824eb42a63018751d302f4a93fef2",
+      "scope": "normal AVRCP helpers select the patched consumers; not the installed SDK globally"
+    },
+    {
+      "path": "licenses/spp-transport-overlay-manifest.json",
+      "sha256": "2b85c17d1df875722063a4b6b5172f572a223f91b35c30dbb601477d7d52f500",
+      "scope": "normal SPP helper selects the L2CAP/RFCOMM overlays for that consumer"
+    },
+    {
+      "path": "licenses/a2dp-same-peer-manifest.json",
+      "sha256": "e1fc036a64d7d9b792cf4d712fcc71c94713a8891168dde048153ba60c5cf621",
+      "scope": "explicit experiment only; ordinary Source/Sink helpers do not select it"
+    },
+    {
+      "path": "licenses/sink-raw-configuration-manifest.json",
+      "sha256": "84adb83e72e1f3ba128d34729977515e2cb7a81e0b9ec6b9c576018d5e254f92",
+      "scope": "Ordinary Sink acceptor overlay, selected per consumer; includes optional START decisions"
+    },
+    {
+      "path": "licenses/persistent-storage-manifest.json",
+      "sha256": "61bc2b6ae4d3845b4ff4b67cab6992e2bd0b8bf7fa3e2a656937b643f9ea4ffe",
+      "scope": "Explicit opt-in persistent bonds and committed TLV; SDK startup transformation is BSD-3-Clause"
+    }
+  ],
+  "overlay_patch_script_inventory": [
+    {
+      "path": "tools/a2dp_media_cid_patch.py",
+      "sha256": "d952eacd54cd27db994969eec3e9d9e2b4693009caa8e386d62d71f80788f4ac",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/a2dp_role_lifecycle_patch.py",
+      "sha256": "ab177fa7f4d500da9bfee5d5dccd4600e28c62f930b91596d41b664ffd1d8c18",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/a2dp_transaction_patch.py",
+      "sha256": "7a9b3179c78b08559763b886517bee424a6ba245b0d7dac9e008dfc278252131",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/avrcp_controller_custom.py",
+      "sha256": "4605218e2a2ca9db8b483eaeb4e7e57f1e9153069ef384ac70bb3786c99541a9",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/avrcp_controller_fragments.py",
+      "sha256": "b704e95dd12f9510bec101343d873168535e93043e55d9cc0512433d6eada182",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/avrcp_target_metadata_patch.py",
+      "sha256": "83bb7c44d2674e2d3179675909c92e1a04a7e06b53d5b53bbdfae2fccf66a101",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_a2dp_same_peer.py",
+      "sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_browsing.py",
+      "sha256": "f0ab6c36469ad0b00ac64c6e1df644a56f7cab5273f8aa3d1655ff8b84b1ba1f",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_browsing_controller.py",
+      "sha256": "d80a44b9cb5978f78be338992e3e1f30ee62ebeb4cc5274deec63d50ad3c9002",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_common.py",
+      "sha256": "c05640db23bbae3e26124da4333e430c8d4df78145b0097995cfe02a4f93a265",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_controller.py",
+      "sha256": "18b1a6a0abce95bf896d579266dc5e7df5e34ffa71b848402fca271b5c660379",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_cover_art.py",
+      "sha256": "a9c51fad5f29e3404375d51a17291614727ba5a7e5447351873717f55fd380e0",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_avrcp_target.py",
+      "sha256": "395f55d6f6c65080134138c79a099f85408cf9563175f56368395d93c24684ea",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_goep_client.py",
+      "sha256": "2fbfeed0a4aeef8cd40e6f4d74bba29d299e4627ba485336c251fcadec5b4aa3",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_spp_ertm_sdk.py",
+      "sha256": "8003d3fe11d501e3b2f0826749c49886165541f95d8dc6aa9a99801e0004f9db",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    },
+    {
+      "path": "tools/patch_sink_raw_configuration.py",
+      "sha256": "5d618af94ae9a9f6621d205aaa42b73fa82f72ef5f3014ba46b17705bf959360",
+      "license_scope": "Project-original logic is MIT; upstream excerpts retain BTstack terms. Include tools/NOTICE.md and the linked license texts."
+    }
+  ],
+  "current_example_source_inventory": [
+    {
+      "path": "examples/A2dpSinkPcmConsumer/usb_descriptors.c",
+      "sha256": "97c0aea0408c2be88bd5778d3231f258bfed7302ca75f4bcf4f5f7e60510422b",
+      "license": "MIT",
+      "copyright": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd.",
+        "Copyright (c) 2019 Damien P. George"
+      ],
+      "notice": {
+        "location": "Complete original MIT copyright, permission and disclaimer in the leading file comment",
+        "sha256": "cde420930e9c3edf77eaa54fa2a413b68d1de304934c4f292bdce040e9b4eb49"
+      },
+      "upstream": {
+        "sdk_relative_path": "src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c",
+        "sha256": "c491fdfd469e868989be05766ab7bea024a7bba8210c6ad2495c597152eac97a",
+        "commit": "9a4113fbbae65ee82d8cd6537963bc3d3b14bcca",
+        "url": "https://github.com/raspberrypi/pico-sdk/blob/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c"
+      },
+      "modifications": "Replace host/device-library exclusion guard with an always-on guard; example CMake selects this file only with SINK_PCM_USB_CAPTURE=ON.",
+      "provenance": {
+        "path": "examples/A2dpSinkPcmConsumer/PROVENANCE.md",
+        "sha256": "a9f259b02b90794cc86447c5844176a03500ee15c8a8bb151592fae2700f862a"
+      }
+    },
+    {
+      "path": "examples/A2dpSinkPcmConsumer/tusb_config.h",
+      "sha256": "b562cdd9cb184d21c50266ebdc1c48e1c014d8f755391f957bb1d414eccb38a9",
+      "license": "MIT",
+      "copyright": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd.",
+        "Copyright (c) 2020 Damien P. George"
+      ],
+      "notice": {
+        "location": "Complete original MIT copyright, permission and disclaimer in the leading file comment",
+        "sha256": "2fa900457baad2cc81d3f3aec5f2e59fa9180ae23f23ea93ffe8f61e00cf5dad"
+      },
+      "upstream": {
+        "sdk_relative_path": "src/rp2_common/pico_stdio_usb/include/tusb_config.h",
+        "sha256": "db5052c282353f683878d0209948a6873164d0659f6dc7f2faa9635794b3479c",
+        "commit": "9a4113fbbae65ee82d8cd6537963bc3d3b14bcca",
+        "url": "https://github.com/raspberrypi/pico-sdk/blob/9a4113fbbae65ee82d8cd6537963bc3d3b14bcca/src/rp2_common/pico_stdio_usb/include/tusb_config.h"
+      },
+      "modifications": "Add generated sample_config.h include; enable settings for capture ON while retaining the original host/device exclusion condition otherwise. Buffer overrides are supplied by example CMake, not by modifying the SDK.",
+      "provenance": {
+        "path": "examples/A2dpSinkPcmConsumer/PROVENANCE.md",
+        "sha256": "a9f259b02b90794cc86447c5844176a03500ee15c8a8bb151592fae2700f862a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# Explicit experiment only. Normal Source/Sink helpers do not include this file.
+include_guard(GLOBAL)
+get_filename_component(PICOW_A2DP_EXPERIMENT_ROOT "${CMAKE_CURRENT_LIST_DIR}/.." ABSOLUTE)
+# Keep the definition path available to calls from other directory/function scopes.
+set_property(GLOBAL PROPERTY PICOW_A2DP_EXPERIMENT_ROOT "${PICOW_A2DP_EXPERIMENT_ROOT}")
+function(picow_enable_a2dp_same_peer_experiment target)
+  get_property(PICOW_A2DP_EXPERIMENT_ROOT GLOBAL PROPERTY PICOW_A2DP_EXPERIMENT_ROOT)
+  get_property(prepared GLOBAL PROPERTY PICOW_A2DP_EXPERIMENT_PREPARED)
+  if(NOT prepared)
+    find_package(Python3 REQUIRED COMPONENTS Interpreter)
+    set(generated "${CMAKE_BINARY_DIR}/picow_a2dp_same_peer_experiment")
+    get_target_property(sources pico_btstack_classic INTERFACE_SOURCES)
+    foreach(name a2dp avdtp avdtp_acceptor avdtp_initiator avdtp_sink)
+      set(original "${PICO_BTSTACK_PATH}/src/classic/${name}.c")
+      if(NOT EXISTS "${original}")
+        set(original "${PICO_SDK_PATH}/lib/btstack/src/classic/${name}.c")
+      endif()
+      set(output "${generated}/${name}.c")
+      execute_process(COMMAND "${Python3_EXECUTABLE}" "${PICOW_A2DP_EXPERIMENT_ROOT}/tools/patch_a2dp_same_peer.py" "${original}" "${output}"
+        RESULT_VARIABLE result OUTPUT_VARIABLE stdout ERROR_VARIABLE stderr)
+      if(NOT result EQUAL 0)
+        message(FATAL_ERROR "Experimental A2DP overlay failed: ${stdout}${stderr}")
+      endif()
+      list(FIND sources "${original}" index)
+      if(index EQUAL -1)
+        message(FATAL_ERROR "SDK A2DP source layout changed: ${original} is not a direct classic source")
+      endif()
+      list(REMOVE_AT sources ${index})
+      list(APPEND sources "$<IF:$<BOOL:$<TARGET_PROPERTY:PICOW_A2DP_SAME_PEER_EXPERIMENT>>,${output},${original}>")
+      set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${original}")
+    endforeach()
+    set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS
+      "${PICOW_A2DP_EXPERIMENT_ROOT}/tools/patch_a2dp_same_peer.py"
+      "${PICOW_A2DP_EXPERIMENT_ROOT}/tools/a2dp_media_cid_patch.py"
+      "${PICOW_A2DP_EXPERIMENT_ROOT}/tools/a2dp_role_lifecycle_patch.py"
+      "${PICOW_A2DP_EXPERIMENT_ROOT}/tools/a2dp_transaction_patch.py")
+    set_property(TARGET pico_btstack_classic PROPERTY INTERFACE_SOURCES "${sources}")
+    set_property(GLOBAL PROPERTY PICOW_A2DP_EXPERIMENT_PREPARED TRUE)
+  endif()
+  set_property(TARGET ${target} PROPERTY PICOW_A2DP_SAME_PEER_EXPERIMENT TRUE)
+  target_compile_definitions(${target} PRIVATE PICOW_A2DP_SAME_PEER_EXPERIMENTAL=1)
+endfunction()

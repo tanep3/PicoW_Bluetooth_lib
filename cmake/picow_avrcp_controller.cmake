@@ -1,0 +1,7 @@
+include_guard(GLOBAL)
+include(${CMAKE_CURRENT_LIST_DIR}/picow_avrcp_target.cmake)
+function(picow_target_avrcp_controller target config_directory)
+    get_property(PICOW_AVRCP_ROOT GLOBAL PROPERTY PICOW_AVRCP_ROOT)
+    picow_target_avrcp_target(${target} ${config_directory})
+    target_sources(${target} PRIVATE ${PICOW_AVRCP_ROOT}/avrcp-sdk/AvrcpController.cpp)
+endfunction()

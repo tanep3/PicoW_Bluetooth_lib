@@ -1,0 +1,65 @@
+{
+  "baseline_btstack_commit": "501e6d2b86e6c92bfb9c390bcf55709938e25ac1",
+  "installed_sdk_modified": false,
+  "generator_revision": "picow-spp-ertm-overlay-v3",
+  "license_notices": [
+    "BTstack.txt",
+    "BTstack-Raspberry-Pi.txt"
+  ],
+  "scope_document": "../docs/spp_lifecycle.md",
+  "attribution": "Generated files retain the complete upstream copyright, conditions and disclaimer. Repository-authored patch logic does not relicense the generated BTstack sources.",
+  "sources": [
+    {
+      "path": "src/l2cap.c",
+      "sha256": "76654c73dd8c02792099fc4edbb2d467ee3cb7284b8def33202bf07cd715d190",
+      "generator": "../tools/patch_spp_ertm_sdk.py",
+      "generator_sha256": "8003d3fe11d501e3b2f0826749c49886165541f95d8dc6aa9a99801e0004f9db",
+      "generated_sha256": "0dcc1eae6937008bd26a6e7ab6352e8b323951284bb8352494e822a1ef98b3c1",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/l2cap.c",
+      "upstream_copyright": [
+        "Copyright (C) 2014 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "fd88bfc8f4319e294f942a3a6c59837f6a90b2cc71ff918af458bc10cf6fbec5"
+    },
+    {
+      "path": "src/classic/rfcomm.c",
+      "sha256": "91f3f07d1de269c00cc3a2edc17fd6e072cf569a965b3024fefdd838b75e7a72",
+      "generator": "../tools/patch_spp_ertm_sdk.py",
+      "generator_sha256": "8003d3fe11d501e3b2f0826749c49886165541f95d8dc6aa9a99801e0004f9db",
+      "generated_sha256": "20e090c370002d10506a2ac76dd6d4ed93d5ab8d057bf88f36bcdfdfe8ebc3c2",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/rfcomm.c",
+      "upstream_copyright": [
+        "Copyright (C) 2014 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "fd88bfc8f4319e294f942a3a6c59837f6a90b2cc71ff918af458bc10cf6fbec5"
+    }
+  ],
+  "license_scope": {
+    "project_original_generator_logic": "MIT, subject to the project LICENSE; this does not relicense upstream excerpts",
+    "upstream_excerpts_and_generated_sources": "BTstack standard terms or an applicable separate grant, including Raspberry Pi supplemental terms within their stated scope",
+    "companion_notice": "../tools/NOTICE.md",
+    "verbatim_source_notices": "BTstack-overlay-source-notices.txt",
+    "script_only_distribution": "Retain upstream attribution and applicable license texts even when only patch/generator scripts are distributed."
+  },
+  "static_inventory_utc": "2026-11-10T17:41:32.130221+00:00",
+  "generation_reexecuted_for_license_audit": false,
+  "cmake_selection_scope": "normal SPP helper selects the L2CAP/RFCOMM overlays for that consumer",
+  "cmake_selection_files": [
+    {
+      "path": "../cmake/picow_spp_sdk_overlay.cmake",
+      "sha256": "b1df708af3cd792fd805f9513e8c095029b38a98c3528167519dcf27feedaf14"
+    },
+    {
+      "path": "../cmake/picow_spp.cmake",
+      "sha256": "82deacd8d216c52b9d0ac00a9446c2af322169a424dcc96a80c62e6c0e35f45f"
+    }
+  ],
+  "fragment_inventory": [],
+  "generator_inventory": [
+    {
+      "path": "../tools/patch_spp_ertm_sdk.py",
+      "sha256": "8003d3fe11d501e3b2f0826749c49886165541f95d8dc6aa9a99801e0004f9db"
+    }
+  ],
+  "generated_output_hash_scope": "Saved generated-output hashes identify previously inspected outputs, not a fresh execution or verification of every current generator."
+}

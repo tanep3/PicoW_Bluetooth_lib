@@ -1,0 +1,180 @@
+{
+  "baseline_btstack_commit": "501e6d2b86e6c92bfb9c390bcf55709938e25ac1",
+  "installed_sdk_modified": false,
+  "license_notices": [
+    "BTstack.txt",
+    "BTstack-Raspberry-Pi.txt"
+  ],
+  "scope_document": "../docs/avrcp_sdk_overlay.md",
+  "sources": [
+    {
+      "path": "src/classic/avrcp.c",
+      "sha256": "a2d8514044eee2f91cc4590560562ea9f6c7aa54e03a97c20dbaf47a29a56974",
+      "generator": "../tools/patch_avrcp_common.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp.c",
+      "generated_sha256": "e8245dd1c559e19f13d5c7dcb4be4f9b4ae6db5892255bbd299bf38b95450d6c",
+      "generator_sha256": "c05640db23bbae3e26124da4333e430c8d4df78145b0097995cfe02a4f93a265",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avrcp_target.c",
+      "sha256": "50e51a563da5fab33bbd8bc827534eab08c4c9110fbb59c4187ab3872f99e19f",
+      "generator": "../tools/patch_avrcp_target.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp_target.c",
+      "generated_sha256": "2a7394d54b6c849bd08ad1c34c9fd5db75dfa7d159bb6a95a72deb7a0367c284",
+      "generator_sha256": "395f55d6f6c65080134138c79a099f85408cf9563175f56368395d93c24684ea",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avrcp_controller.c",
+      "sha256": "ae62338f2c7837b37dca1fb10ccd593f1e245e372160febdb2fa18af1f52bbd7",
+      "generator": "../tools/patch_avrcp_controller.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp_controller.c",
+      "generated_sha256": "df54fcaf5b09de2389e92774bff6ca7c100bde7cbe063e4781bb9a66f1c6bc3d",
+      "generator_sha256": "18b1a6a0abce95bf896d579266dc5e7df5e34ffa71b848402fca271b5c660379",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avrcp_browsing.c",
+      "sha256": "627a4103ab28b4bd74e627b313bfd1c02cf8fa7aa6ef89360666895825b02be8",
+      "generator": "../tools/patch_avrcp_browsing.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp_browsing.c",
+      "generated_sha256": "670c1c2c400b0c5e075d2165e02021d87aca5f089bb39b2b0dbc135f9079e94c",
+      "generator_sha256": "f0ab6c36469ad0b00ac64c6e1df644a56f7cab5273f8aa3d1655ff8b84b1ba1f",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avrcp_browsing_controller.c",
+      "sha256": "757c73749ab11470399c0c63f365c4b9adc9e0a0fa395302f8fd4803e3a36c2e",
+      "generator": "../tools/patch_avrcp_browsing_controller.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp_browsing_controller.c",
+      "generated_sha256": "9e17790fef61f946995bb12ca4644ebc5c15c0764afa66326da3e77c6c7632e2",
+      "generator_sha256": "d80a44b9cb5978f78be338992e3e1f30ee62ebeb4cc5274deec63d50ad3c9002",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avrcp_cover_art_client.c",
+      "sha256": "3ced11b2e60d7dcd586d84a20aff3a5d2d3a80d03a0fbaa4a8713f95219cda8b",
+      "generator": "../tools/patch_avrcp_cover_art.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avrcp_cover_art_client.c",
+      "generated_sha256": "50055cfef297dca1ee38fe84798a28233c26049b2c96373bfef200e6d2021b0d",
+      "generator_sha256": "a9c51fad5f29e3404375d51a17291614727ba5a7e5447351873717f55fd380e0",
+      "upstream_copyright": [
+        "Copyright (C) 2023 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "c3095ded598cda60f8e841bcd2c8eb8639184bd0eb361de2098a169c4eb18e05"
+    },
+    {
+      "path": "src/classic/goep_client.c",
+      "sha256": "92bca31c6dae183f69b8bb78b5bbbdb4ff57daabf0abfee9fe4ee32b954fd536",
+      "generator": "../tools/patch_goep_client.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/goep_client.c",
+      "generated_sha256": "8ce7c07c069cf66388441e6d6ced6269c44d1d6e47506fbc3231b70ec2825561",
+      "generator_sha256": "2fbfeed0a4aeef8cd40e6f4d74bba29d299e4627ba485336c251fcadec5b4aa3",
+      "upstream_copyright": [
+        "Copyright (C) 2014 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "fd88bfc8f4319e294f942a3a6c59837f6a90b2cc71ff918af458bc10cf6fbec5"
+    }
+  ],
+  "controller_overlay_revision": "picow-avrcp-controller-overlay-v6",
+  "controller_generator_modules": [
+    "../tools/avrcp_controller_fragments.py",
+    "../tools/avrcp_controller_custom.py"
+  ],
+  "target_generator_modules": [
+    "../tools/avrcp_target_metadata_patch.py"
+  ],
+  "license_scope": {
+    "project_original_generator_logic": "MIT, subject to the project LICENSE; this does not relicense upstream excerpts",
+    "upstream_excerpts_and_generated_sources": "BTstack standard terms or an applicable separate grant, including Raspberry Pi supplemental terms within their stated scope",
+    "companion_notice": "../tools/NOTICE.md",
+    "verbatim_source_notices": "BTstack-overlay-source-notices.txt",
+    "script_only_distribution": "Retain upstream attribution and applicable license texts even when only patch/generator scripts are distributed."
+  },
+  "static_inventory_utc": "2026-11-10T17:41:32.130221+00:00",
+  "generation_reexecuted_for_license_audit": false,
+  "cmake_selection_scope": "normal AVRCP helpers select the patched consumers; not the installed SDK globally",
+  "cmake_selection_files": [
+    {
+      "path": "../cmake/picow_avrcp_sdk_overlay.cmake",
+      "sha256": "a2d75b3b6422b36c7516bf3f4ea5bc0aa5f9c450ae6004429cf5583c6348285a"
+    },
+    {
+      "path": "../cmake/picow_avrcp_target.cmake",
+      "sha256": "6859957d37d9c403a2860b0a9bc3b3d93443a3f4d5fa36173e98b4df168805d0"
+    },
+    {
+      "path": "../cmake/picow_avrcp_controller.cmake",
+      "sha256": "64ce1ecc20da1e6001f34ecd81736087b08d80309fca4f7dcee66d17c8ef05e5"
+    },
+    {
+      "path": "../cmake/picow_avrcp_browsing.cmake",
+      "sha256": "e0475336befe91e9288460532df969617c6038031e7a638cb5cee18275d19021"
+    },
+    {
+      "path": "../cmake/picow_avrcp_cover_art.cmake",
+      "sha256": "670f8fc62c1f7fd48f0e4a6628f27b30ef21431069dc4677ec21b6f010b92c1e"
+    }
+  ],
+  "fragment_inventory": [
+    {
+      "path": "../tools/avrcp_controller_fragments.py",
+      "sha256": "b704e95dd12f9510bec101343d873168535e93043e55d9cc0512433d6eada182"
+    },
+    {
+      "path": "../tools/avrcp_controller_custom.py",
+      "sha256": "4605218e2a2ca9db8b483eaeb4e7e57f1e9153069ef384ac70bb3786c99541a9"
+    },
+    {
+      "path": "../tools/avrcp_target_metadata_patch.py",
+      "sha256": "83bb7c44d2674e2d3179675909c92e1a04a7e06b53d5b53bbdfae2fccf66a101"
+    }
+  ],
+  "generator_inventory": [
+    {
+      "path": "../tools/patch_avrcp_browsing.py",
+      "sha256": "f0ab6c36469ad0b00ac64c6e1df644a56f7cab5273f8aa3d1655ff8b84b1ba1f"
+    },
+    {
+      "path": "../tools/patch_avrcp_browsing_controller.py",
+      "sha256": "d80a44b9cb5978f78be338992e3e1f30ee62ebeb4cc5274deec63d50ad3c9002"
+    },
+    {
+      "path": "../tools/patch_avrcp_common.py",
+      "sha256": "c05640db23bbae3e26124da4333e430c8d4df78145b0097995cfe02a4f93a265"
+    },
+    {
+      "path": "../tools/patch_avrcp_controller.py",
+      "sha256": "18b1a6a0abce95bf896d579266dc5e7df5e34ffa71b848402fca271b5c660379"
+    },
+    {
+      "path": "../tools/patch_avrcp_cover_art.py",
+      "sha256": "a9c51fad5f29e3404375d51a17291614727ba5a7e5447351873717f55fd380e0"
+    },
+    {
+      "path": "../tools/patch_avrcp_target.py",
+      "sha256": "395f55d6f6c65080134138c79a099f85408cf9563175f56368395d93c24684ea"
+    },
+    {
+      "path": "../tools/patch_goep_client.py",
+      "sha256": "2fbfeed0a4aeef8cd40e6f4d74bba29d299e4627ba485336c251fcadec5b4aa3"
+    }
+  ],
+  "generated_output_hash_scope": "Saved generated-output hashes identify previously inspected outputs, not a fresh execution or verification of every current generator."
+}

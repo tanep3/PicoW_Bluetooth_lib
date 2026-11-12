@@ -1,0 +1,2449 @@
+File-level upstream notices from the audited Pico SDK dependency source inputs.
+Source paths are relative to the Pico SDK checkout recorded in manifest.json.
+These comments are reproduced verbatim; filename headings are supplied by this project.
+Compilation inputs can include code removed by linker garbage collection.
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/alloc.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/bitalloc-sbc.c
+lib/btstack/3rd-party/bluedroid/decoder/srce/framing-sbc.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/** @file
+@ingroup codec_internal
+*/
+/**@addgroup codec_internal*/
+/**@{*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/bitalloc.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+ ***********************************************************************************/
+/**
+@file
+
+The functions in this file relate to the allocation of available bits to
+subbands within the SBC/eSBC frame, along with support functions for computing
+frame length and bitrate.
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/bitstream-decode.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/**
+@file
+Functions for manipulating input bitstreams.
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/decoder-oina.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2006 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+ ***********************************************************************************/
+/**
+@file
+This file exposes OINA-specific interfaces to decoder functions.
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/decoder-private.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+ ***********************************************************************************/
+/**
+@file
+This file drives SBC decoding.
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/decoder-sbc.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2006 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+ ***********************************************************************************/
+/** @file
+@ingroup codec_internal
+*/
+/**@addtogroup codec_internal */
+/**@{*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/dequant.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/**
+ @file
+
+ Dequantizer for SBC decoder; reconstructs quantized representation of subband samples.
+
+ @ingroup codec_internal
+ */
+/**
+@addtogroup codec_internal
+@{
+*/
+/**
+ This function is a fixed-point approximation of a modification of the following
+ dequantization operation defined in the spec, as inferred from section 12.6.4:
+
+ @code
+ dequant = 2^(scale_factor+1) * ((raw * 2.0 + 1.0) / ((2^bits) - 1) - 1)
+
+ 2 <= bits <= 16
+ 0 <= raw < (2^bits)-1   (the -1 is because quantized values with all 1's are forbidden)
+
+ -65535 < dequant < 65535
+ @endcode
+
+ The code below computes the dequantized value divided by a scaling constant
+ equal to about 1.38. This constant is chosen to ensure that the entry in the
+ dequant_long_scaled table for 16 bits is as accurate as possible, since it has
+ the least relative precision available to it due to its small magnitude.
+
+ This routine outputs in Q16.15 format.
+
+ The helper array dequant_long is defined as follows:
+
+ @code
+ dequant_long_long[bits] = round(2^31 * 1/((2^bits - 1) / 1.38...)  for 2 <= bits <= 16
+ @endcode
+
+
+ Additionally, the table entries have the following property:
+
+ @code
+ dequant_long_scaled[bits] <= 2^31 / ((2^bits - 1))  for 2 <= bits <= 16
+ @endcode
+
+ Therefore
+
+ @code
+ d = 2 * raw + 1              1 <= d <= 2^bits - 2
+
+ d' = d * dequant_long[bits]
+
+                  d * dequant_long_scaled[bits] <= (2^bits - 2) * (2^31 / (2^bits - 1))
+                  d * dequant_long_scaled[bits] <= 2^31 * (2^bits - 2)/(2^bits - 1) < 2^31
+ @endcode
+
+ Therefore, d' doesn't overflow a signed 32-bit value.
+
+ @code
+
+ d' =~ 2^31 * (raw * 2.0 + 1.0) / (2^bits - 1) / 1.38...
+
+ result = d' - 2^31/1.38... =~ 2^31 * ((raw * 2.0 + 1.0) / (2^bits - 1) - 1) / 1.38...
+
+ result is therefore a scaled approximation to dequant. It remains only to
+ turn 2^31 into 2^(scale_factor+1). Since we're aiming for Q16.15 format,
+ this is achieved by shifting right by (15-scale_factor):
+
+  (2^31 * x) >> (15-scale_factor) =~ 2^(31-15+scale_factor) * x = 2^15 * 2^(1+scale_factor) * x
+ @endcode
+
+ */
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/framing.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/**
+@file
+Checksum and header-related functions.
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/oi_codec_version.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2002 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**
+@file
+This file contains a single function, which returns a string indicating the
+version number of the eSBC codec
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/synthesis-8-generated.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**
+ @file
+
+ DO NOT EDIT THIS FILE DIRECTLY
+
+ This file is automatically generated by the "synthesis-gen.pl" script.
+ Any changes to this generated file will be lost when the script is re-run.
+
+ These functions are called by functions in synthesis.c to perform the synthesis
+ filterbank computations for the SBC decoder.
+
+
+ */
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/synthesis-dct8.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/** @file
+@ingroup codec_internal
+*/
+/**@addgroup codec_internal*/
+/**@{*/
+/*
+ * Performs an 8-point Type-II scaled DCT using the Arai-Agui-Nakajima
+ * factorization. The scaling factors are folded into the windowing
+ * constants. 29 adds and 5 16x32 multiplies per 8 samples.
+ */
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/decoder/srce/synthesis-sbc.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 2014 The Android Open Source Project
+ *  Copyright 2003 - 2004 Open Interface North America, Inc. All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/**********************************************************************************
+  $Revision: #1 $
+***********************************************************************************/
+/** @file
+
+This file, along with synthesis-generated.c, contains the synthesis
+filterbank routines. The operations performed correspond to the
+operations described in A2DP Appendix B, Figure 12.3. Several
+mathematical optimizations are performed, particularly for the
+8-subband case.
+
+One important optimization is to note that the "matrixing" operation
+can be decomposed into the product of a type II discrete cosine kernel
+and another, sparse matrix.
+
+According to Fig 12.3, in the 8-subband case,
+@code
+    N[k][i] = cos((i+0.5)*(k+4)*pi/8), k = 0..15 and i = 0..7
+@endcode
+
+N can be factored as R * C2, where C2 is an 8-point type II discrete
+cosine kernel given by
+@code
+    C2[k][i] = cos((i+0.5)*k*pi/8)), k = 0..7 and i = 0..7
+@endcode
+
+R turns out to be a sparse 16x8 matrix with the following non-zero
+entries:
+@code
+    R[k][k+4]        =  1,   k = 0..3
+    R[k][abs(12-k)]  = -1,   k = 5..15
+@endcode
+
+The spec describes computing V[0..15] as N * R.
+@code
+    V[0..15] = N * R = (R * C2) * R = R * (C2 * R)
+@endcode
+
+C2 * R corresponds to computing the discrete cosine transform of R, so
+V[0..15] can be computed by taking the DCT of R followed by assignment
+and selective negation of the DCT result into V.
+
+        Although this was derived empirically using GNU Octave, it is
+        formally demonstrated in, e.g., Liu, Chi-Min and Lee,
+        Wen-Chieh. "A Unified Fast Algorithm for Cosine Modulated
+        Filter Banks in Current Audio Coding Standards." Journal of
+        the AES 47 (December 1999): 1061.
+
+Given the shift operation performed prior to computing V[0..15], it is
+clear that V[0..159] represents a rolling history of the 10 most
+recent groups of blocks input to the synthesis operation. Interpreting
+the matrix N in light of its factorization into C2 and R, R's
+sparseness has implications for interpreting the values in V. In
+particular, there is considerable redundancy in the values stored in
+V. Furthermore, since R[4][0..7] are all zeros, one out of every 16
+values in V will be zero regardless of the input data. Within each
+block of 16 values in V, fully half of them are redundant or
+irrelevant:
+
+@code
+    V[ 0] =  DCT[4]
+    V[ 1] =  DCT[5]
+    V[ 2] =  DCT[6]
+    V[ 3] =  DCT[7]
+    V[ 4] = 0
+    V[ 5] = -DCT[7] = -V[3] (redundant)
+    V[ 6] = -DCT[6] = -V[2] (redundant)
+    V[ 7] = -DCT[5] = -V[1] (redundant)
+    V[ 8] = -DCT[4] = -V[0] (redundant)
+    V[ 9] = -DCT[3]
+    V[10] = -DCT[2]
+    V[11] = -DCT[1]
+    V[12] = -DCT[0]
+    V[13] = -DCT[1] = V[11] (redundant)
+    V[14] = -DCT[2] = V[10] (redundant)
+    V[15] = -DCT[3] = V[ 9] (redundant)
+@endcode
+
+Since the elements of V beyond 15 were originally computed the same
+way during a previous run, what holds true for V[x] also holds true
+for V[x+16]. Thus, so long as care is taken to maintain the mapping,
+we need only actually store the unique values, which correspond to the
+output of the DCT, in some cases inverted. In fact, instead of storing
+V[0..159], we could store DCT[0..79] which would contain a history of
+DCT results. More on this in a bit.
+
+Going back to figure 12.3 in the spec, it should be clear that the
+vector U need not actually be explicitly constructed, but that with
+suitable indexing into V during the window operation, the same end can
+be accomplished. In the same spirit of the pseudocode shown in the
+figure, the following is the construction of W without using U:
+
+@code
+    for i=0 to 79 do
+        W[i] = D[i]*VSIGN(i)*V[remap_V(i)] where remap_V(i) = 32*(int(i/16)) + (i % 16) + (i % 16 >= 8 ? 16 : 0)
+                                             and VSIGN(i) maps i%16 into {1, 1, 1, 1, 0, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1 }
+                                             These values correspond to the
+                                             signs of the redundant values as
+                                             shown in the explanation three
+                                             paragraphs above.
+@endcode
+
+We saw above how V[4..8,13..15] (and by extension
+V[(4..8,13..15)+16*n]) can be defined in terms of other elements
+within the subblock of V. V[0..3,9..12] correspond to DCT elements.
+
+@code
+    for i=0 to 79 do
+        W[i] = D[i]*DSIGN(i)*DCT[remap_DCT(i)]
+@endcode
+
+The DCT is calculated using the Arai-Agui-Nakajima factorization,
+which saves some computation by producing output that needs to be
+multiplied by scaling factors before being used.
+
+@code
+    for i=0 to 79 do
+        W[i] = D[i]*SCALE[i%8]*AAN_DCT[remap_DCT(i)]
+@endcode
+
+D can be premultiplied with the DCT scaling factors to yield
+
+@code
+    for i=0 to 79 do
+        W[i] = DSCALED[i]*AAN_DCT[remap_DCT(i)] where DSCALED[i] = D[i]*SCALE[i%8]
+@endcode
+
+The output samples X[0..7] are defined as sums of W:
+
+@code
+        X[j] = sum{i=0..9}(W[j+8*i])
+@endcode
+
+@ingroup codec_internal
+*/
+/**
+@addtogroup codec_internal
+@{
+*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_analysis.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  This file contains the code that performs Analysis of the input audio
+ *  stream.
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_dct.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  source file for fast dct operations
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_dct_coeffs.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  This file contains the coefficient table used for DCT computation in
+ *  analysis.
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_enc_bit_alloc_mono.c
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_enc_bit_alloc_ste.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  This file contains the code for bit allocation algorithm. It calculates
+ *  the number of bits required for the encoded stream of data.
+ *
+ ******************************************************************************/
+/*Includes*/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_enc_coeffs.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  This file contains the Windowing coeffs for synthesis filter
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_encoder.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  contains code for encoder flow and initalization of encoder
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/bluedroid/encoder/srce/sbc_packing.c
+========================================================================
+/******************************************************************************
+ *
+ *  Copyright (C) 1999-2012 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at:
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ ******************************************************************************/
+/******************************************************************************
+ *
+ *  This file contains code for packing the Encoded data into bit streams.
+ *
+ ******************************************************************************/
+
+========================================================================
+lib/btstack/3rd-party/md5/md5.c
+========================================================================
+/*
+ * This is an OpenSSL-compatible implementation of the RSA Data Security, Inc.
+ * MD5 Message-Digest Algorithm (RFC 1321).
+ *
+ * Homepage:
+ * http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
+ *
+ * Author:
+ * Alexander Peslyak, better known as Solar Designer <solar at openwall.com>
+ *
+ * This software was written by Alexander Peslyak in 2001.  No copyright is
+ * claimed, and the software is hereby placed in the public domain.
+ * In case this attempt to disclaim copyright and place the software in the
+ * public domain is deemed null and void, then the software is
+ * Copyright (c) 2001 Alexander Peslyak and it is hereby released to the
+ * general public under the following terms:
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted.
+ *
+ * There's ABSOLUTELY NO WARRANTY, express or implied.
+ *
+ * (This is a heavily cut-down "BSD license".)
+ *
+ * This differs from Colin Plumb's older public domain implementation in that
+ * no exactly 32-bit integer data type is required (any 32-bit or wider
+ * unsigned integer data type will do), there's no compile-time endianness
+ * configuration, and the function prototypes match OpenSSL's.  No code from
+ * Colin Plumb's implementation has been reused; this comment merely compares
+ * the properties of the two independent implementations.
+ *
+ * The primary goals of this implementation are portability and ease of use.
+ * It is meant to be fast, but not as fast as possible.  Some known
+ * optimizations are not included to reduce source code size and avoid
+ * compile-time configuration.
+ */
+
+========================================================================
+lib/btstack/3rd-party/micro-ecc/uECC.c
+========================================================================
+/* Copyright 2014, Kenneth MacKay. Licensed under the BSD 2-clause license. */
+
+========================================================================
+lib/btstack/3rd-party/rijndael/rijndael.c
+========================================================================
+//=============================== RIJNDAEL.C   ===============================
+
+// from http://www.efgh.com/software/rijndael.htm,
+
+// License: Public Domain, 
+
+// Author:  Philip J. Erdelsky
+
+
+========================================================================
+lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c
+========================================================================
+/*********************************************************************
+*                    SEGGER Microcontroller GmbH                     *
+*                        The Embedded Experts                        *
+**********************************************************************
+*                                                                    *
+*            (c) 1995 - 2019 SEGGER Microcontroller GmbH             *
+*                                                                    *
+*       www.segger.com     Support: support@segger.com               *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+*       SEGGER RTT * Real Time Transfer for embedded targets         *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+* All rights reserved.                                               *
+*                                                                    *
+* SEGGER strongly recommends to not make any changes                 *
+* to or modify the source code of this software in order to stay     *
+* compatible with the RTT protocol and J-Link.                       *
+*                                                                    *
+* Redistribution and use in source and binary forms, with or         *
+* without modification, are permitted provided that the following    *
+* condition is met:                                                  *
+*                                                                    *
+* o Redistributions of source code must retain the above copyright   *
+*   notice, this condition and the following disclaimer.             *
+*                                                                    *
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND             *
+* CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,        *
+* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF           *
+* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE           *
+* DISCLAIMED. IN NO EVENT SHALL SEGGER Microcontroller BE LIABLE FOR *
+* ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR           *
+* CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT  *
+* OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;    *
+* OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF      *
+* LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT          *
+* (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE  *
+* USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH   *
+* DAMAGE.                                                            *
+*                                                                    *
+**********************************************************************
+---------------------------END-OF-HEADER------------------------------
+File    : SEGGER_RTT.c
+Purpose : Implementation of SEGGER real-time transfer (RTT) which
+          allows real-time communication on targets which support
+          debugger memory accesses while the CPU is running.
+Revision: $Rev: 28168 $
+
+Additional information:
+          Type "int" is assumed to be 32-bits in size
+          H->T    Host to target communication
+          T->H    Target to host communication
+
+          RTT channel 0 is always present and reserved for Terminal usage.
+          Name is fixed to "Terminal"
+
+          Effective buffer size: SizeOfBuffer - 1
+
+          WrOff == RdOff:       Buffer is empty
+          WrOff == (RdOff - 1): Buffer is full
+          WrOff >  RdOff:       Free space includes wrap-around
+          WrOff <  RdOff:       Used space includes wrap-around
+          (WrOff == (SizeOfBuffer - 1)) && (RdOff == 0):  
+                                Buffer full and wrap-around after next byte
+
+
+----------------------------------------------------------------------
+*/
+
+========================================================================
+lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c
+========================================================================
+/*********************************************************************
+*                    SEGGER Microcontroller GmbH                     *
+*                        The Embedded Experts                        *
+**********************************************************************
+*                                                                    *
+*            (c) 1995 - 2019 SEGGER Microcontroller GmbH             *
+*                                                                    *
+*       www.segger.com     Support: support@segger.com               *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+*       SEGGER RTT * Real Time Transfer for embedded targets         *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+* All rights reserved.                                               *
+*                                                                    *
+* SEGGER strongly recommends to not make any changes                 *
+* to or modify the source code of this software in order to stay     *
+* compatible with the RTT protocol and J-Link.                       *
+*                                                                    *
+* Redistribution and use in source and binary forms, with or         *
+* without modification, are permitted provided that the following    *
+* condition is met:                                                  *
+*                                                                    *
+* o Redistributions of source code must retain the above copyright   *
+*   notice, this condition and the following disclaimer.             *
+*                                                                    *
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND             *
+* CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,        *
+* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF           *
+* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE           *
+* DISCLAIMED. IN NO EVENT SHALL SEGGER Microcontroller BE LIABLE FOR *
+* ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR           *
+* CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT  *
+* OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;    *
+* OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF      *
+* LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT          *
+* (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE  *
+* USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH   *
+* DAMAGE.                                                            *
+*                                                                    *
+**********************************************************************
+---------------------------END-OF-HEADER------------------------------
+File    : SEGGER_RTT_printf.c
+Purpose : Replacement for printf to write formatted data via RTT
+Revision: $Rev: 17697 $
+----------------------------------------------------------------------
+*/
+
+========================================================================
+lib/btstack/3rd-party/yxml/yxml.c
+========================================================================
+/* THIS FILE IS AUTOMATICALLY GENERATED, DO NOT EDIT! */
+/* Copyright (c) 2013-2014 Yoran Heling
+
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be included
+  in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+========================================================================
+lib/btstack/platform/embedded/btstack_tlv_flash_bank.c
+lib/btstack/src/btstack_crypto.c
+lib/btstack/src/btstack_tlv.c
+lib/btstack/src/btstack_tlv_none.c
+========================================================================
+/*
+ * Copyright (C) 2017 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+
+========================================================================
+lib/btstack/platform/embedded/hci_dump_embedded_stdout.c
+lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c
+lib/btstack/src/ad_parser.c
+lib/btstack/src/btstack_linked_list.c
+lib/btstack/src/btstack_memory.c
+lib/btstack/src/btstack_memory_pool.c
+lib/btstack/src/btstack_run_loop.c
+lib/btstack/src/btstack_slip.c
+lib/btstack/src/btstack_util.c
+lib/btstack/src/classic/avrcp_media_item_iterator.c
+lib/btstack/src/classic/btstack_link_key_db_memory.c
+lib/btstack/src/classic/btstack_link_key_db_tlv.c
+lib/btstack/src/classic/btstack_sbc_encoder_bluedroid.c
+lib/btstack/src/classic/device_id_server.c
+lib/btstack/src/classic/gatt_sdp.c
+lib/btstack/src/classic/goep_client.c
+lib/btstack/src/classic/hfp.c
+lib/btstack/src/classic/hfp_ag.c
+lib/btstack/src/classic/hfp_gsm_model.c
+lib/btstack/src/classic/hfp_hf.c
+lib/btstack/src/classic/hfp_msbc.c
+lib/btstack/src/classic/hid_device.c
+lib/btstack/src/classic/hid_host.c
+lib/btstack/src/classic/hsp_ag.c
+lib/btstack/src/classic/hsp_hs.c
+lib/btstack/src/classic/obex_iterator.c
+lib/btstack/src/classic/pan.c
+lib/btstack/src/classic/pbap_client.c
+lib/btstack/src/classic/rfcomm.c
+lib/btstack/src/classic/sdp_client.c
+lib/btstack/src/classic/sdp_client_rfcomm.c
+lib/btstack/src/classic/sdp_server.c
+lib/btstack/src/classic/sdp_util.c
+lib/btstack/src/classic/spp_server.c
+lib/btstack/src/hci.c
+lib/btstack/src/hci_cmd.c
+lib/btstack/src/hci_dump.c
+lib/btstack/src/l2cap.c
+lib/btstack/src/l2cap_signaling.c
+========================================================================
+/*
+ * Copyright (C) 2014 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_audio.c
+========================================================================
+/*
+ * Copyright (C) 2017 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_base64_decoder.c
+========================================================================
+/*
+ * Copyright (C) 2018 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_hid.c
+========================================================================
+/*
+ * Copyright (C) 2021 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_hid_parser.c
+========================================================================
+/*
+ * Copyright (C) 2017 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_resample.c
+========================================================================
+/*
+ * Copyright (C) 2018 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_ring_buffer.c
+lib/btstack/src/classic/a2dp_sink.c
+lib/btstack/src/classic/avdtp.c
+lib/btstack/src/classic/avdtp_acceptor.c
+lib/btstack/src/classic/avdtp_initiator.c
+lib/btstack/src/classic/avdtp_sink.c
+lib/btstack/src/classic/avdtp_source.c
+lib/btstack/src/classic/avdtp_util.c
+lib/btstack/src/classic/avrcp.c
+lib/btstack/src/classic/avrcp_browsing.c
+lib/btstack/src/classic/avrcp_browsing_controller.c
+lib/btstack/src/classic/avrcp_browsing_target.c
+lib/btstack/src/classic/avrcp_controller.c
+lib/btstack/src/classic/avrcp_target.c
+lib/btstack/src/classic/btstack_cvsd_plc.c
+lib/btstack/src/classic/btstack_sbc_plc.c
+========================================================================
+/*
+ * Copyright (C) 2016 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/btstack_run_loop_base.c
+========================================================================
+/*
+ *  btstack_run_loop_base.c was integrated into btstack_run_loop.c
+ *  Deprecated - will be removed in future releases
+ */
+// dummy function added to avoid warning about empty file
+
+
+========================================================================
+lib/btstack/src/classic/a2dp.c
+========================================================================
+/*
+ * Copyright (C) 2022 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/classic/a2dp_source.c
+========================================================================
+/*
+ * Copyright (C) 2016 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+/**
+ * Supported use cases:
+ * - single incoming connection: sep discovery starts and stream will get setup if remote sink sep with SBC is found
+ * - single outgoing connection: see above
+ * - outgoing and incoming connection to same device:
+ *    - if outgoing is triggered first, incoming will get ignored.
+ *    - if incoming starts first, start ougoing will fail, but incoming will succeed.
+ * - outgoing and incoming connections to different devices:
+ *    - if outgoing is first, incoming gets ignored.
+ *    - if incoming starts first SEP discovery will get stopped and outgoing will succeed.
+ */
+
+========================================================================
+lib/btstack/src/classic/avrcp_cover_art_client.c
+lib/btstack/src/classic/btstack_sbc_bluedroid.c
+========================================================================
+/*
+ * Copyright (C) 2023 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/classic/goep_server.c
+========================================================================
+/*
+ * Copyright (C) 2019 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL MATTHIAS
+ * RINGWALD OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/classic/obex_message_builder.c
+========================================================================
+/*
+ * Copyright (C) 2019 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/classic/obex_parser.c
+========================================================================
+/*
+ * Copyright (C) 2021 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/classic/obex_srm_client.c
+========================================================================
+/*
+ * Copyright (C) 2024 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/btstack/src/hci_event.c
+========================================================================
+/*
+ * Copyright (C) 2020 BlueKitchen GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ * 4. Any redistribution, use, or modification is done solely for
+ *    personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY BLUEKITCHEN GMBH AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BLUEKITCHEN
+ * GMBH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ * THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * Please inquire about commercial licensing options at 
+ * contact@bluekitchen-gmbh.com
+ *
+ */
+
+========================================================================
+lib/cyw43-driver/firmware/wifi_nvram_43439.h
+========================================================================
+/*
+ * $ Copyright Broadcom Corporation $
+ */
+/**
+ * Character array of NVRAM image
+ * Generated from cyw943439wlpth_rev1_0.txt
+ */
+
+========================================================================
+lib/cyw43-driver/src/cyw43_ctrl.c
+lib/cyw43-driver/src/cyw43_ll.c
+lib/cyw43-driver/src/cyw43_lwip.c
+lib/cyw43-driver/src/cyw43_stats.c
+========================================================================
+/*
+ * This file is part of the cyw43-driver
+ *
+ * Copyright (C) 2019-2022 George Robotics Pty Ltd
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. Any redistribution, use, or modification in source or binary form is done
+ *    solely for personal benefit and not for any commercial purpose or for
+ *    monetary gain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE LICENSOR AND COPYRIGHT OWNER "AS IS" AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE LICENSOR OR COPYRIGHT OWNER BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * This software is also available for use with certain devices under different
+ * terms, as set out in the top level LICENSE file.  For commercial licensing
+ * options please email contact@georgerobotics.com.au.
+ */
+
+========================================================================
+lib/tinyusb/src/class/audio/audio_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2020 Reinhard Panhuber, Jerzy Kasenberg
+ * Copyright (c) 2023 HiFiPhile
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+/*
+ * This driver supports at most one out EP, one in EP, one control EP, and one feedback EP and one alternative interface other than zero. Hence, only one input terminal and one output terminal are support, if you need more adjust the driver!
+ * It supports multiple TX and RX channels.
+ *
+ * In case you need more alternate interfaces, you need to define additional defines for this specific alternate interface. Just define them and set them in the set_interface function.
+ *
+ * There are three data flow structures currently implemented, where at least one SW-FIFO is used to decouple the asynchronous processes MCU vs. host
+ *
+ * 1. Input data -> SW-FIFO -> MCU USB
+ *
+ * The most easiest version, available in case the target MCU can handle the software FIFO (SW-FIFO) and if it is implemented in the device driver (if yes then dcd_edpt_xfer_fifo() is available)
+ *
+ * 2. Input data -> SW-FIFO -> Linear buffer -> MCU USB
+ *
+ * In case the target MCU can not handle a SW-FIFO, a linear buffer is used. This uses the default function dcd_edpt_xfer(). In this case more memory is required.
+ *
+ * 3. (Input data 1 | Input data 2 | ... | Input data N) ->  (SW-FIFO 1 | SW-FIFO 2 | ... | SW-FIFO N) -> Linear buffer -> MCU USB
+ *
+ * This case is used if you have more channels which need to be combined into one stream. Every channel has its own SW-FIFO. All data is encoded into an Linear buffer.
+ *
+ * The same holds in the RX case.
+ *
+ * */
+
+========================================================================
+lib/tinyusb/src/class/cdc/cdc_device.c
+lib/tinyusb/src/class/hid/hid_device.c
+lib/tinyusb/src/class/midi/midi_device.c
+lib/tinyusb/src/class/msc/msc_device.c
+lib/tinyusb/src/class/vendor/vendor_device.c
+lib/tinyusb/src/device/usbd.c
+lib/tinyusb/src/device/usbd_control.c
+lib/tinyusb/src/tusb.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2019 Ha Thach (tinyusb.org)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/class/dfu/dfu_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2021 XMOS LIMITED
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/class/dfu/dfu_rt_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2019 Sylvain Munaut <tnt@246tNt.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/class/net/ecm_rndis_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2020 Peter Lawrence
+ * Copyright (c) 2019 Ha Thach (tinyusb.org)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/class/net/ncm_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2019 Ha Thach (tinyusb.org)
+ * Copyright (c) 2024 Hardy Griech
+ * Copyright (c) 2020 Jacob Berg Potter
+ * Copyright (c) 2020 Peter Lawrence
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+/**
+ * Small Glossary (from the spec)
+ * --------------
+ * Datagram - A collection of bytes forming a single item of information, passed as a unit from source to destination.
+ * NCM      - Network Control Model
+ * NDP      - NCM Datagram Pointer: NTB structure that delineates Datagrams (typically Ethernet frames) within an NTB
+ * NTB      - NCM Transfer Block: a data structure for efficient USB encapsulation of one or more datagrams
+ *            Each NTB is designed to be a single USB transfer
+ * NTH      - NTB Header: a data structure at the front of each NTB, which provides the information needed to validate
+ *            the NTB and begin decoding
+ *
+ * Some explanations
+ * -----------------
+ * - rhport        is the USB port of the device, in most cases "0"
+ * - itf_data_alt  if != 0 -> data xmit/recv are allowed (see spec)
+ * - ep_in         IN endpoints take data from the device intended to go in to the host (the device transmits)
+ * - ep_out        OUT endpoints send data out of the host to the device (the device receives)
+ */
+
+========================================================================
+lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2019 Nathan Conrad
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+/*
+ * This library is not fully reentrant, though it is reentrant from the view
+ * of either the application layer or the USB stack. Due to its locking,
+ * it is not safe to call its functions from interrupts.
+ *
+ * The one exception is that its functions may not be called from the application
+ * until the USB stack is initialized. This should not be a problem since the
+ * device shouldn't be sending messages until it receives a request from the
+ * host.
+ */
+/*
+ * In the case of single-CPU "no OS", this task is never preempted other than by
+ * interrupts, and the USBTMC code isn't called by interrupts, so all is OK. For "no OS",
+ * the mutex structure's main effect is to disable the USB interrupts.
+ * With an OS, this class driver uses the OSAL to perform locking. The code uses a single lock
+ * and does not call outside of this class with a lock held, so deadlocks won't happen.
+ */
+//Limitations:
+
+// "vendor-specific" commands are not handled.
+
+// Dealing with "termchar" must be handled by the application layer,
+
+//    though additional error checking is does in this module.
+
+// talkOnly and listenOnly are NOT supported. They're not permitted
+
+// in USB488, anyway.
+
+/* Supported:
+ *
+ * Notification pulse
+ * Trigger
+ * Read status byte (both by interrupt endpoint and control message)
+ *
+ */
+// TODO:
+
+// USBTMC 3.2.2 error conditions not strictly followed
+
+// No local lock-out, REN, or GTL.
+
+// Clear message available status byte at the correct time? (488 4.3.1.3)
+
+// Ability to defer status byte transmission
+
+// Transmission of status byte in response to USB488 SRQ condition
+
+
+========================================================================
+lib/tinyusb/src/class/video/video_device.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2021 Koji KITAYAMA
+ * Copyright (c) 2019 Ha Thach (tinyusb.org)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/common/tusb_fifo.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2019 Ha Thach (tinyusb.org)
+ * Copyright (c) 2020 Reinhard Panhuber - rework to unmasked pointers
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+========================================================================
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ * Copyright (c) 2021 Ha Thach (tinyusb.org) for Double Buffered
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * This file is part of the TinyUSB stack.
+ */
+
+========================================================================
+src/common/hardware_claim/claim.c
+src/common/pico_sync/critical_section.c
+src/common/pico_sync/lock_core.c
+src/common/pico_sync/mutex.c
+src/common/pico_sync/sem.c
+src/common/pico_time/time.c
+src/common/pico_time/timeout_helper.c
+src/common/pico_util/pheap.c
+src/common/pico_util/queue.c
+src/rp2040/pico_platform/platform.c
+src/rp2_common/hardware_clocks/clocks.c
+src/rp2_common/hardware_dma/dma.c
+src/rp2_common/hardware_exception/exception.c
+src/rp2_common/hardware_flash/flash.c
+src/rp2_common/hardware_gpio/gpio.c
+src/rp2_common/hardware_irq/irq.c
+src/rp2_common/hardware_irq/irq_handler_chain.S
+src/rp2_common/hardware_pio/pio.c
+src/rp2_common/hardware_sync/sync.c
+src/rp2_common/hardware_timer/timer.c
+src/rp2_common/hardware_uart/uart.c
+src/rp2_common/hardware_vreg/vreg.c
+src/rp2_common/hardware_watchdog/watchdog.c
+src/rp2_common/hardware_xosc/xosc.c
+src/rp2_common/pico_atomic/atomic.c
+src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+src/rp2_common/pico_bootrom/bootrom.c
+src/rp2_common/pico_clib_interface/newlib_interface.c
+src/rp2_common/pico_crt0/crt0.S
+src/rp2_common/pico_cxx_options/new_delete.cpp
+src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+src/rp2_common/pico_divider/divider_hardware.S
+src/rp2_common/pico_double/double_aeabi_rp2040.S
+src/rp2_common/pico_double/double_init_rom_rp2040.c
+src/rp2_common/pico_double/double_math.c
+src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+src/rp2_common/pico_float/float_aeabi_rp2040.S
+src/rp2_common/pico_float/float_init_rom_rp2040.c
+src/rp2_common/pico_float/float_math.c
+src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+src/rp2_common/pico_malloc/malloc.c
+src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+src/rp2_common/pico_platform_panic/panic.c
+src/rp2_common/pico_runtime/runtime.c
+src/rp2_common/pico_runtime_init/runtime_init.c
+src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+src/rp2_common/pico_stdio/stdio.c
+src/rp2_common/pico_stdlib/stdlib.c
+========================================================================
+/*
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/hardware_boot_lock/boot_lock.c
+src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+src/rp2_common/hardware_ticks/ticks.c
+src/rp2_common/pico_bootrom/bootrom_lock.c
+========================================================================
+/*
+ * Copyright (c) 2024 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/hardware_pll/pll.c
+========================================================================
+/*
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+// For frequency and PLL definitions etc.
+
+
+========================================================================
+src/rp2_common/pico_async_context/async_context_base.c
+src/rp2_common/pico_async_context/async_context_poll.c
+src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+========================================================================
+/*
+ * Copyright (c) 2022 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/pico_btstack/btstack_flash_bank.c
+src/rp2_common/pico_btstack/btstack_run_loop_async_context.c
+src/rp2_common/pico_btstack/btstack_stdin_pico.c
+src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c
+src/rp2_common/pico_cyw43_driver/btstack_cyw43.c
+src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c
+src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+src/rp2_common/pico_flash/flash.c
+========================================================================
+/*
+ * Copyright (c) 2023 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/pico_printf/printf.c
+========================================================================
+///////////////////////////////////////////////////////////////////////////////
+
+// \author (c) Marco Paland (info@paland.com)
+
+//             2014-2019, PALANDesign Hannover, Germany
+
+//
+
+// \license The MIT License (MIT)
+
+//
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+
+// of this software and associated documentation files (the "Software"), to deal
+
+// in the Software without restriction, including without limitation the rights
+
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+
+// copies of the Software, and to permit persons to whom the Software is
+
+// furnished to do so, subject to the following conditions:
+
+//
+
+// The above copyright notice and this permission notice shall be included in
+
+// all copies or substantial portions of the Software.
+
+//
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+
+// THE SOFTWARE.
+
+//
+
+// \brief Tiny printf, sprintf and (v)snprintf implementation, optimized for speed on
+
+//        embedded systems with a very limited resources. These routines are thread
+
+//        safe and reentrant!
+
+//        Use this instead of the bloated standard/newlib printf cause these use
+
+//        malloc for printf (and may not be thread safe).
+
+//
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+========================================================================
+src/rp2_common/pico_stdio_usb/reset_interface.c
+========================================================================
+/**
+ * Copyright (c) 2021 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/pico_stdio_usb/stdio_usb.c
+========================================================================
+/**
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+========================================================================
+src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+========================================================================
+/*
+ * This file is based on a file originally part of the
+ * MicroPython project, http://micropython.org/
+ *
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+ * Copyright (c) 2019 Damien P. George
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+========================================================================
+src/rp2_common/pico_unique_id/unique_id.c
+========================================================================
+/*
+ * Copyright (c) 2021 Raspberry Pi (Trading) Ltd.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+

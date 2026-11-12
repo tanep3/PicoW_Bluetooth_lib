@@ -1,0 +1,110 @@
+{
+  "baseline_btstack_commit": "501e6d2b86e6c92bfb9c390bcf55709938e25ac1",
+  "installed_sdk_modified": false,
+  "production_enabled": false,
+  "license_notices": [
+    "BTstack.txt",
+    "BTstack-Raspberry-Pi.txt"
+  ],
+  "scope_document": "../docs/a2dp_same_peer_experiment.md",
+  "sources": [
+    {
+      "path": "src/classic/avdtp.c",
+      "sha256": "03fa7da1fd9245141bffcaf02e6aae47e567e6635216aba41924112b7b4d051f",
+      "generator": "../tools/patch_a2dp_same_peer.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avdtp.c",
+      "generator_sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avdtp_acceptor.c",
+      "sha256": "c0627c7d95107c9303e046c108069ddfe8e52c22fe913a07f6ef4fbf1e27dd38",
+      "generator": "../tools/patch_a2dp_same_peer.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avdtp_acceptor.c",
+      "generator_sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/avdtp_initiator.c",
+      "sha256": "e69cf88403f7d6e11fc88de42fb79531f4dd7b50bf17c714de0f819516dc810e",
+      "generator": "../tools/patch_a2dp_same_peer.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avdtp_initiator.c",
+      "generator_sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    },
+    {
+      "path": "src/classic/a2dp.c",
+      "sha256": "6f12b99dc2f8d86c39781a3238a465ba1aa4f606be88c836065e2b7796102aa4",
+      "generator": "../tools/patch_a2dp_same_peer.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/a2dp.c",
+      "generator_sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "upstream_copyright": [
+        "Copyright (C) 2022 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "749919f5da7bf21a5b3948196839d9cb6c01b12a67482404580dc7b072c3b115"
+    },
+    {
+      "path": "src/classic/avdtp_sink.c",
+      "sha256": "9b1da7637204aeabfce0757c290056228e9417f1d597afa47985d954a45dc4e2",
+      "generator": "../tools/patch_a2dp_same_peer.py",
+      "upstream_url": "https://github.com/bluekitchen/btstack/blob/501e6d2b86e6c92bfb9c390bcf55709938e25ac1/src/classic/avdtp_sink.c",
+      "generator_sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e",
+      "upstream_copyright": [
+        "Copyright (C) 2016 BlueKitchen GmbH"
+      ],
+      "upstream_notice_sha256": "be255b24aac234df83ccaebd6b1c38a365df3ae8597b140dc0eae16371db741b"
+    }
+  ],
+  "composed_fragments": [
+    "../tools/a2dp_media_cid_patch.py",
+    "../tools/a2dp_role_lifecycle_patch.py",
+    "../tools/a2dp_transaction_patch.py"
+  ],
+  "experimental_cmake_helper": "../cmake/picow_a2dp_same_peer_experiment.cmake",
+  "license_scope": {
+    "project_original_generator_logic": "MIT, subject to the project LICENSE; this does not relicense upstream excerpts",
+    "upstream_excerpts_and_generated_sources": "BTstack standard terms or an applicable separate grant, including Raspberry Pi supplemental terms within their stated scope",
+    "companion_notice": "../tools/NOTICE.md",
+    "verbatim_source_notices": "BTstack-overlay-source-notices.txt",
+    "script_only_distribution": "Retain upstream attribution and applicable license texts even when only patch/generator scripts are distributed."
+  },
+  "static_inventory_utc": "2026-11-10T17:41:32.130221+00:00",
+  "generation_reexecuted_for_license_audit": false,
+  "cmake_selection_scope": "explicit experiment only; ordinary Source/Sink helpers do not select it",
+  "cmake_selection_files": [
+    {
+      "path": "../cmake/picow_a2dp_same_peer_experiment.cmake",
+      "sha256": "cbc17c484e55e63bd72030416a9a85e3ec7758a92918f254840e06240fc7ebd6"
+    }
+  ],
+  "fragment_inventory": [
+    {
+      "path": "../tools/a2dp_media_cid_patch.py",
+      "sha256": "d952eacd54cd27db994969eec3e9d9e2b4693009caa8e386d62d71f80788f4ac"
+    },
+    {
+      "path": "../tools/a2dp_role_lifecycle_patch.py",
+      "sha256": "ab177fa7f4d500da9bfee5d5dccd4600e28c62f930b91596d41b664ffd1d8c18"
+    },
+    {
+      "path": "../tools/a2dp_transaction_patch.py",
+      "sha256": "7a9b3179c78b08559763b886517bee424a6ba245b0d7dac9e008dfc278252131"
+    }
+  ],
+  "generator_inventory": [
+    {
+      "path": "../tools/patch_a2dp_same_peer.py",
+      "sha256": "0be74595d6deb0ec7ea20f918e1c49487a1056c88931a863326d74d8a986f87e"
+    }
+  ],
+  "generated_output_hash_scope": "Saved generated-output hashes identify previously inspected outputs, not a fresh execution or verification of every current generator."
+}

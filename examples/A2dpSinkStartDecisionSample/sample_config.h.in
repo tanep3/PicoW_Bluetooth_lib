@@ -1,0 +1,3 @@
+#pragma once
+#cmakedefine01 SINK_START_ENABLE_RADIO
+#define SINK_START_PEER_BYTES @SINK_START_PEER_BYTES@

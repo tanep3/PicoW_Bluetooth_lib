@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.13)
+set(PICO_BOARD pico_w)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(A2dpSinkPcmConsumer C CXX ASM)
+pico_sdk_init()
+
+option(SINK_PCM_ENABLE_RADIO "Enable real radio initialization (default executable is offline)" OFF)
+option(SINK_PCM_USB_CAPTURE "Enable explicit five-second USB PCM capture (default OFF)" OFF)
+option(SINK_PCM_ALLOW_PAIRING "Allow SSP confirmation for the configured peer only" OFF)
+option(SINK_PCM_DISCOVERABLE_LISTEN "Standalone test only: explicit discoverable listen with a 60-second polled timeout" OFF)
+set(SINK_PCM_PEER "00:00:00:00:00:00" CACHE STRING "Exact authorized source Bluetooth address")
+if(NOT SINK_PCM_PEER MATCHES "^[0-9A-Fa-f][0-9A-Fa-f]:[0-9A-Fa-f][0-9A-Fa-f]:[0-9A-Fa-f][0-9A-Fa-f]:[0-9A-Fa-f][0-9A-Fa-f]:[0-9A-Fa-f][0-9A-Fa-f]:[0-9A-Fa-f][0-9A-Fa-f]$")
+    message(FATAL_ERROR "SINK_PCM_PEER must contain six hexadecimal octets")
+endif()
+if(SINK_PCM_ENABLE_RADIO AND SINK_PCM_PEER STREQUAL "00:00:00:00:00:00")
+    message(FATAL_ERROR "Radio requires an explicit nonzero SINK_PCM_PEER")
+endif()
+string(REPLACE ":" ",0x" SINK_PCM_PEER_BYTES "${SINK_PCM_PEER}")
+set(SINK_PCM_PEER_BYTES "0x${SINK_PCM_PEER_BYTES}")
+configure_file(sample_config.h.in sample_config.h)
+
+include(${CMAKE_CURRENT_LIST_DIR}/../../cmake/picow_a2dp_sink.cmake)
+add_executable(a2dp_sink_pcm_consumer main.cpp)
+picow_target_a2dp_sink(a2dp_sink_pcm_consumer ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(a2dp_sink_pcm_consumer PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+target_compile_options(a2dp_sink_pcm_consumer PRIVATE $<$<COMPILE_LANGUAGE:CXX>:-Wall;-Wextra>)
+# Console output may drop, but must not stall shared radio polling for USB.
+target_compile_definitions(a2dp_sink_pcm_consumer PRIVATE
+    PICO_STDIO_USB_STDOUT_TIMEOUT_US=0)
+if(SINK_PCM_USB_CAPTURE)
+    target_sources(a2dp_sink_pcm_consumer PRIVATE usb_descriptors.c)
+    target_link_libraries(a2dp_sink_pcm_consumer PRIVATE tinyusb_device)
+    target_compile_definitions(a2dp_sink_pcm_consumer PRIVATE
+        CFG_TUD_CDC_TX_BUFSIZE=4096 CFG_TUD_CDC_EP_BUFSIZE=512 CFG_TUD_CDC_RX_BUFSIZE=512
+        PICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=1
+        PICO_STDIO_USB_ENABLE_RESET_VIA_BAUD_RATE=1)
+else()
+    target_compile_definitions(a2dp_sink_pcm_consumer PRIVATE CFG_TUD_CDC_TX_BUFSIZE=1024)
+endif()
+pico_enable_stdio_usb(a2dp_sink_pcm_consumer 1)
+pico_enable_stdio_uart(a2dp_sink_pcm_consumer 0)
+pico_add_extra_outputs(a2dp_sink_pcm_consumer)
